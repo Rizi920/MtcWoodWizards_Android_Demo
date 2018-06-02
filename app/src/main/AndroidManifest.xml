@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rizi.mtcwoodwizard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_spootlight"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen.ActivitySplashScreen"
+            android:label="MTCwoodWizard"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityNormalSearch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdvanceSearch.ActivityAdvanceSearch"
+            android:label="@string/title_activity_advane_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdvanceSearch.ActivitySubCategories"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:title="Sub Categories">
+
+        </activity>
+        <activity android:name=".ActivitySellerDetails"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:title="Seller Details">
+
+        </activity>
+    </application>
+
+</manifest>
